@@ -1,0 +1,22 @@
+.share {
+  height: 170px;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.37);
+  &__image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  &__option {
+    font-size: 14px;
+    margin-right: 0.5rem;
+  }
+  &__icon {
+    margin-right: 0.5rem;
+    font-size: 18px !important;
+    color: black;
+  }
+}
