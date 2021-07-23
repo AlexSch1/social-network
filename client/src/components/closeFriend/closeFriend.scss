@@ -1,0 +1,13 @@
+.close-friend {
+  margin-bottom: 15px;
+  &__image {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  &__user-name {
+    font-weight: 500;
+  }
+}

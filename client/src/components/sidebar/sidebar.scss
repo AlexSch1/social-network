@@ -1,0 +1,26 @@
+.sidebar {
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+  position: sticky;
+  top: 50px;
+  &__icon {
+    margin-right: 0.5rem;
+  }
+  &__list {
+    &-item {
+      margin-bottom: 0.5rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__friend {
+    &-image {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+  }
+}

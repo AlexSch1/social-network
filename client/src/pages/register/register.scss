@@ -1,0 +1,22 @@
+.register {
+  height: 100vh;
+  background-color: #f0f2f5;
+  &__logo-text {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  &__logo-img {
+    width: auto;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 1rem;
+  }
+  &__desc {
+    font-size: 20px;
+  }
+  &__box {
+    height: 400px;
+    border-radius: 5px;
+    background-color: white;
+  }
+}

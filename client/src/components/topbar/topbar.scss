@@ -1,0 +1,79 @@
+.topbar {
+    height: 50px;
+    width: 100%;
+    background-color: #32ccb0;
+    top: 0;
+    z-index: 10;
+
+    &__left {
+        flex: 3;
+    }
+
+    &__center {
+        flex: 5;
+    }
+
+    &__right {
+        flex: 4;
+    }
+
+    &__image {
+        width: 32px;
+    }
+
+    &__logo {
+        font-size: 24px;
+        font-weight: bold;
+        cursor: pointer;
+        &-img {
+            margin-right: 0.5rem;
+        }
+    }
+
+    &__searchbar {
+        height: 30px;
+        background-color: white;
+        border-radius: 5px;
+        &-icon {
+            font-size: 20px !important;
+            margin-left: 10px;
+        }
+        &-input {
+            width: 70%;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    &__link {
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    &__icon {
+        cursor: pointer;
+        &-badge {
+            width: 16px;
+            height: 16px;
+            background-color: orangered;
+            border-radius: 50%;
+            color: white;
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+    }
+
+    &__image {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+}
