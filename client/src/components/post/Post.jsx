@@ -1,12 +1,12 @@
-import "./post.scss";
-import { MoreVert } from "@material-ui/icons";
-import { Users } from "../../dummyData";
-import { useState } from "react";
+import './post.scss';
+import { MoreVert } from '@material-ui/icons';
+import { Users } from '../../dummyData';
+import { useState } from 'react';
 
 export default function Post({ post }) {
   const [like, setLike] = useState(post.like);
   const [isLike, setIsLike] = useState(false);
-
+  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
   const likeHandler = () => {
     setLike(isLike ? like - 1 : like + 1);
     setIsLike(!isLike);
@@ -19,7 +19,7 @@ export default function Post({ post }) {
           <div className="post__top-left d-flex align-items-center">
             <img
               src={
-                "/assets/" +
+                PF +
                 Users.filter((u) => u.id === post.userId)[0]?.profilePicture
               }
               alt="image"
@@ -36,11 +36,7 @@ export default function Post({ post }) {
         </div>
         <div className="post__center my-3">
           <span className="post__text">{post?.desc}</span>
-          <img
-            src={"/assets/" + post?.photo}
-            alt="image"
-            className="post__image"
-          />
+          <img src={PF + post?.photo} alt="image" className="post__image" />
         </div>
         <div className="post__bottom d-flex align-items-center justify-content-between">
           <div className="post__bottom-left d-flex align-items-center">

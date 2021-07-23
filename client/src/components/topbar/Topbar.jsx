@@ -1,5 +1,5 @@
-import "./topbar.scss";
-import { Search, Person, Chat, Notifications } from "@material-ui/icons";
+import './topbar.scss';
+import { Search, Person, Chat, Notifications } from '@material-ui/icons';
 
 export default function Topbar() {
   return (

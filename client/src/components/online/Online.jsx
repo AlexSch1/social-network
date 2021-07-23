@@ -1,11 +1,11 @@
-import "./online.scss";
+import './online.scss';
 
 export default function Online({ user }) {
   return (
     <li className="online d-flex">
       <div className="online__profile-image-container">
         <img
-          src={"/assets/" + user.profilePicture}
+          src={'/assets/' + user.profilePicture}
           alt=""
           className="online__profile-image"
         />

@@ -1,11 +1,12 @@
-import "./closeFriend.scss";
+import './closeFriend.scss';
 
 export default function CloseFriend({ user }) {
+  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
   return (
     <li className="close-friend d-flex">
       <div className="online__profile-image-container">
         <img
-          src={"/assets/" + user.profilePicture}
+          src={PF + user.profilePicture}
           alt=""
           className="close-friend__image"
         />

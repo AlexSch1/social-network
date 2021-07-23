@@ -8,11 +8,11 @@ import {
   WorkOutline,
   Event,
   School,
-} from "@material-ui/icons";
+} from '@material-ui/icons';
 
-import "./sidebar.scss";
-import { Users } from "../../dummyData";
-import CloseFriend from "../closeFriend/CloseFriend";
+import './sidebar.scss';
+import { Users } from '../../dummyData';
+import CloseFriend from '../closeFriend/CloseFriend';
 
 export default function Sidebar() {
   return (

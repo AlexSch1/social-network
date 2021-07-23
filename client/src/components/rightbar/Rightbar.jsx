@@ -1,6 +1,6 @@
-import "./rightbar.scss";
-import { Users } from "../../dummyData";
-import Online from "../online/Online";
+import './rightbar.scss';
+import { Users } from '../../dummyData';
+import Online from '../online/Online';
 
 export default function Rightbar({ profile }) {
   const HomeRightbar = () => {
@@ -39,7 +39,7 @@ export default function Rightbar({ profile }) {
           </div>
           <div className="rightbar__info-item">
             <span className="rightbar__info-key text-black-50">
-              Relationship:{" "}
+              Relationship:{' '}
             </span>
             <span className="rightbar__info-value">Single</span>
           </div>

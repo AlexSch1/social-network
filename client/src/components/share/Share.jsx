@@ -4,8 +4,8 @@ import {
   Room,
   EmojiEmotions,
   Cancel,
-} from "@material-ui/icons";
-import "./share.scss";
+} from '@material-ui/icons';
+import './share.scss';
 
 export default function Share() {
   return (

@@ -1,4 +1,4 @@
-import "./login.scss";
+import './login.scss';
 export default function Login() {
   return (
     <div className="login d-flex align-items-center justify-content-center">
