@@ -1,5 +1,4 @@
 .share {
-  height: 170px;
   margin-top: 1.5rem;
   border-radius: 5px;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.37);
@@ -18,5 +17,20 @@
     margin-right: 0.5rem;
     font-size: 18px !important;
     color: black;
+  }
+  &__img-container {
+    padding: 0 20px 10px 20px;
+    position: relative;
+  }
+  &__img {
+    width: 100%;
+    object-fit: cover;
+  }
+  &__cancel-img {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0.7;
   }
 }
