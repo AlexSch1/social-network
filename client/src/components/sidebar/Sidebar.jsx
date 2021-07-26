@@ -56,8 +56,8 @@ export default function Sidebar() {
             <span className="sidebar__list-text">Courses</span>
           </li>
         </ul>
-        ` <button className="btn btn-light">Show More</button>
-        ` <hr />
+        <button className="btn btn-light">Show More</button>
+        <hr />
         <ul className="p-0">
           {Users.map((u) => (
             <CloseFriend key={u.id} user={u} />

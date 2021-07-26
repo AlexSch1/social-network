@@ -7,7 +7,7 @@ export default function CloseFriend({ user }) {
       <div className="online__profile-image-container">
         <img
           src={PF + user.profilePicture}
-          alt=""
+          alt="profilePicture"
           className="close-friend__image"
         />
         <span className="close-friend__name">{user.username}</span>
